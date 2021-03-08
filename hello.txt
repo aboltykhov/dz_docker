@@ -1,0 +1,27 @@
+Hello Al Bo!
+
+#######################################
+# Пример:
+# Чтобы скачать репозиторий dz_docker
+#######################################
+pwd && ls -lh
+mkdir dz_docker && cd dz_docker
+git init
+git remote add origin git@github.com:aboltykhov/dz_docker.git
+git pull origin main && ls -lh
+
+#######################################
+# Пример:
+# Чтобы отправить dz.bash
+#######################################
+pwd
+ls -lh
+git add .
+git commit -m "Добавлен файл инструкциий для репозитория dz_docker"
+git branch -M main 
+git push -u origin main 
+
+#######################################
+# И т.д.
+#
+#######################################
